@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bubble:hover {
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+.label {
+  pointer-events: none;
+}
